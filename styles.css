@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("./img/squirrel.jpeg");
+}
+
+.menu {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    gap: 10px;
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+.menu a {
+    display:block;                /* Transformation en block */
+    min-width: 120px;             /* Largeur minimale des liens */   
+    
+    margin: 0.8rem;               /* Marges externes (1 valeurs = 4 directions) */
+    padding: 0.9rem 0;            /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
+    text-align: center;           /* Centrage du texte */   
+    background-color: #52caf9;    /* Couleur d'arrière-plan */
+    color: #000000;                  /* Couleur du texte */
+    text-decoration: none;        /* Suppression du soulignement */
+    border: 2px solid #fff;       /* Ajout d'une bordure */
+    border-radius: 100%;           /* Arrondis des bordures */
+    
+    transition: all 0.6s ;
+}
+
+.menu a:hover {
+    background-color: #02bb2a;
+    color: #ffe843;
+    border-color: #ffe843;
+    padding: 0.8rem;
+    
+  }
