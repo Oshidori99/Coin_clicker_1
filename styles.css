@@ -41,3 +41,15 @@ body {
     padding: 0.8rem;
     
   }
+
+  .menu a.actif {    
+    background-color: #000 ; 
+    color: #1ABC9C ;
+    border-color: #1ABC9C ;
+  }
+
+    .menu a:hover.actif{
+        background-color: #ed2794;
+        color: #ffe843;
+        border-color: #ffe843;
+      }
